@@ -4,6 +4,8 @@
 
 
 ### A package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
+### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
 
 <br>
 
