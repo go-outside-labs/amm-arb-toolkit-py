@@ -295,7 +295,7 @@ bdex -x QUANTITY
 
 <br>
 
-Arbitrage opportunies for 10 `WETH`:
+Arbitrage opportunities for 10 `WETH`:
 
 <br>
 <img width="495" alt="Screen Shot 2022-04-04 at 6 02 09 PM" src="https://user-images.githubusercontent.com/1130416/161561281-c49beaec-c0fe-4022-b323-a795b0ebb92a.png">
@@ -303,7 +303,7 @@ Arbitrage opportunies for 10 `WETH`:
 
 <br>
 
-Arbitrage opportunies for 1 `WETH`:
+Arbitrage opportunities for 1 `WETH`:
 
 <br>
 
@@ -312,7 +312,7 @@ Arbitrage opportunies for 1 `WETH`:
 <br>
 
 
-Arbitrage opportunies for 0.01 `WETH`:
+Arbitrage opportunities for 0.01 `WETH`:
 
 <br>
 <img width="507" alt="Screen Shot 2022-04-04 at 6 03 20 PM" src="https://user-images.githubusercontent.com/1130416/161561257-aab365b9-d04b-4754-948b-4f2894aeb03e.png">
