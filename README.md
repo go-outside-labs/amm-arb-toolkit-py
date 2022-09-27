@@ -3,18 +3,22 @@
 <br>
 
 
-### A package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
-### Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-
+### package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
+### creative commons license; please ref author [bt3gl](https://github.com/bt3gl) or collect an NFT on our [mirror post](https://mirror.xyz/lilithsecurity.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)
 
 <br>
 
-#### Token pairs:
+---
+
+<br>
+
+### Token pairs:
 
 * **WETH/DAI**
 
+<br>
 
-#### Exchanges:
+### Exchanges:
 
 * **Uniswap** ([0xa478c2975ab1ea89e8196811f51a7b7ade33eb11](https://etherscan.io/address/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11))
 * **Sushiswap** ([0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f](https://etherscan.io/address/0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f))
