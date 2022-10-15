@@ -3,10 +3,12 @@
 <br>
 
 
-### package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
-### creative commons license; please ref author [bt3gl](https://github.com/bt3gl) or collect an NFT on our [mirror post](https://mirror.xyz/lilithsecurity.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)
+### package and CLI tool to get data and arbitrage for specified tokens/exchange pools
+#### creative commons license 
+#### [mirror post about this package](https://mirror.xyz/mevwaifu.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)
 
 <br>
+
 
 ---
 
@@ -424,3 +426,7 @@ make lint
 ```
 make test
 ```
+
+
+<br>
+
