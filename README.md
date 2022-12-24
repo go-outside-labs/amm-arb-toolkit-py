@@ -1,26 +1,20 @@
-# 🪙✨ bdex
+# 💰⛓ bdex: an amm-toolkit
+
+<br>
+
+### bdex is a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
+### [mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk).
 
 <br>
 
 
-### package and CLI tool to get data and arbitrage for specified tokens/exchange pools
-#### creative commons license 
-#### [mirror post about this package](https://mirror.xyz/mevwaifu.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)
-
-<br>
-
-
----
-
-<br>
-
-### Token pairs:
+### available token pairs:
 
 * **WETH/DAI**
 
 <br>
 
-### Exchanges:
+### available exchanges:
 
 * **Uniswap** ([0xa478c2975ab1ea89e8196811f51a7b7ade33eb11](https://etherscan.io/address/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11))
 * **Sushiswap** ([0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f](https://etherscan.io/address/0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f))
@@ -34,7 +28,7 @@
 
 <br>
 
-## Setting your environment
+## installation
 
 Add your [Alchemy API key and endpoint](https://dashboard.alchemyapi.io/apps) to a file named `.env`:
 
@@ -68,7 +62,7 @@ make install
 
 <br>
 
-## Running the CLI
+## running
 
 You can run the CLI with:
 
@@ -84,10 +78,10 @@ bdex
 
 <br>
 
-## Checking the latest block
+### checking the latest block
 
 
-We leverage [Alchemy API endpoint `eth_blockNumber_hex`](https://docs.alchemy.com/alchemy/apis/ethereum/eth_blockNumber_hex) to get the latest block:
+We leverage [Alchemy's API endpoint `eth_blockNumber_hex`](https://docs.alchemy.com/alchemy/apis/ethereum/eth_blockNumber_hex) to get the latest block:
 
 ```bash
 bdex -c
@@ -115,7 +109,7 @@ bdex -c
 
 <br>
 
-## Getting the token balance for an exchange
+### getting the token balance for an exchange
 
 We leverage [Alchemy API endpoint `eth_call`](https://docs.alchemy.com/alchemy/apis/ethereum/eth_call) to retrieve the current token balance for a specific exchange:
 
@@ -131,7 +125,7 @@ bdex -b TOKEN EXCHANGE
 <br>
 
 
-## Getting all token balances for all the exchanges
+### getting all token balances for all the exchanges
 
  We loop over the previous method for a list of tokens and exchanges:
 
@@ -149,7 +143,7 @@ bdex -a
 <br>
 
 
-## [Extra] Getting all token balances for all exchanges with Python's web3 library
+### [extra] getting all token balances for all exchanges with Python's web3 library
 
 To be able to compare our results from the previous steps, we implemented an alternative way to fetch pair balances utilizing the [Python web3 library](https://web3py.readthedocs.io/en/stable/):
 
@@ -174,7 +168,7 @@ bdex -w
 <br>
 
 
-## Getting trading prices for all the exchanges
+### getting trading prices for all the exchanges
 
 To get the current price for `WETH/DAI` in all exchanges (e.g., as shown in [the projects' dashboards](https://v2.info.uniswap.org/pair/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11)), run:
 
@@ -211,7 +205,7 @@ Quote for trading 100 `WETH`:
 
 <br>
 
-### How the price is calculated
+#### how the price is calculated
 
 An AMM replaces the buy and sell orders in an order book market with a liquidity pool of two assets, both valued relative to each other. As one asset is traded for the other, the relative prices of the two assets shift, and the new market rate for both is determined.
 
@@ -254,7 +248,7 @@ buy_price = quantity / t1_amount_out_buy
 
 <br>
 
-#### Sell price (e.g., selling `WETH` in a `WETH/DAI` pool)
+#### sell price (e.g., selling `WETH` in a `WETH/DAI` pool)
 
 To find how much we can sell a certain quantity of `WETH` for `DAI`, first, we calculate the ratio of `DAI` in the new pool, as we add `WETH`:
 
@@ -289,8 +283,9 @@ sell_price = t2_amount_out_buy / t1_amount_in_sell
 
 <br>
 
+---
 
-## Getting arbitrage
+### getting arbitrages
 
 Run an algorithm to search for arbitrage in the supported exchanges for a certain buy quantity:
 
@@ -333,7 +328,7 @@ Arbitrage opportunities for 0.01 `WETH`:
 
 <br>
 
-## Running arbitrage algorithm in a loop
+### running arbitrage algorithm in a loop
 
 To run the arbitrage algorithm for a certain amount of minutes:
 
@@ -369,7 +364,7 @@ Here is a sample of the results running this algorithm for 100 minutes for tradi
 
 <br>
 
-## Running arbitrage algorithm in a loop in a Docker container
+### running arbitrage algorithm in a loop in a Docker container
 
 To run the algorithm in a separated container, first [install Docker](https://docs.docker.com/get-docker/), then build the Docker image:
 
@@ -406,7 +401,7 @@ docker volumes prune
 
 <br>
 
-## Development
+## development
 
 
 Install dependencies:
@@ -415,13 +410,13 @@ Install dependencies:
 pip3 -r requirements-dev.txt
 ```
 
-### Linting
+<br>
 
 ```
 make lint
 ```
 
-### Running tests
+<br>
 
 ```
 make test
