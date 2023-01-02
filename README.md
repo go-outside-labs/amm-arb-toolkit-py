@@ -2,6 +2,13 @@
 
 <br>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/1130416/210285080-a86ce53e-8f2e-49c2-a148-93777212e476.png" width="50%" align="center" style="padding:1px;border:1px solid black;"/>
+ </p>
+
+
+<br>
+
 #### a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
 #### for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
 
