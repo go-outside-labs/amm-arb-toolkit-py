@@ -2,8 +2,8 @@
 
 <br>
 
-### bdex is a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
-### [mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk).
+#### a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
+#### [my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk).
 
 <br>
 
