@@ -404,21 +404,16 @@ docker volumes prune
 ## development
 
 
-Install dependencies:
+Install dependencies (in a virtual env):
 
 ```
-pip3 -r requirements-dev.txt
+make install
 ```
 
-<br>
+Useful commands:
 
 ```
 make lint
-```
-
-<br>
-
-```
 make test
 ```
 
