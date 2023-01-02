@@ -9,11 +9,16 @@
 
 <br>
 
+### tl; dr
+
 #### a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
 #### for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
 
 <br>
 
+---
+
+<br>
 
 ### available token pairs:
 
