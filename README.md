@@ -11,8 +11,12 @@
 
 ### tl; dr
 
-#### a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
-#### for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
+#### 💰 a package and CLI tool to get data and arbitrage for specified tokens/exchange pools.
+
+#### 📚 for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
+
+#### 🚨 disclaimer: this project is a boilerplate to get you started; you might or might not profit from it: in the mev world, nobody is going to handle you the alpha. i am not responsible for anything you do with my free code.
+
 
 <br>
 
