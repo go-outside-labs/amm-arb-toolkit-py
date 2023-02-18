@@ -7,6 +7,8 @@
  </p>
 
 
+
+
 <br>
 
 ### tl; dr
@@ -16,6 +18,13 @@
 #### 📚 for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
 
 #### 🚨 disclaimer: i am not responsible for anything you do with my free code.
+
+
+<br>
+
+<br>
+
+<a href="https://uniswapv3book.com/docs/introduction/constant-function-market-maker/"><img width="666"  src="https://user-images.githubusercontent.com/1130416/219825643-02bbf891-d0e1-41e8-89f3-0dc87547cfb4.png"></a>
 
 
 <br>
