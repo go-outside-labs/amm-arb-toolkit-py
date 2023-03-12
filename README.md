@@ -24,7 +24,8 @@
 
 <br>
 
-<a href="https://uniswapv3book.com/docs/introduction/constant-function-market-maker/"><img width="666"  src="https://user-images.githubusercontent.com/1130416/219825643-02bbf891-d0e1-41e8-89f3-0dc87547cfb4.png"></a>
+<img width="400" src="https://user-images.githubusercontent.com/1130416/224524921-4d5fb3c9-f976-4b61-afcd-6d07d2287711.png">
+
 
 
 <br>
