@@ -1,4 +1,4 @@
-# 💰⛓ bdex: an amm-toolkit
+# ⛓💰 bdex: an amm-toolkit
 
 <br>
 
@@ -17,15 +17,14 @@
 
 #### 📚 for more details, check **[my mirror post about this tool](https://mirror.xyz/steinkirch.eth/EwRYWHcjsic4lPbFLRcPhakxKyfGuOKS_TL4YgsoaOk)**.
 
-#### 🚨 disclaimer: i am not responsible for anything you do with my free code.
-
 
 <br>
 
 <br>
 
+<p align="center">
 <img width="400" src="https://user-images.githubusercontent.com/1130416/224524921-4d5fb3c9-f976-4b61-afcd-6d07d2287711.png">
-
+ </p>
 
 
 <br>
