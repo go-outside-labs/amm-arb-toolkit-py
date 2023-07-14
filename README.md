@@ -3,9 +3,8 @@
 <br>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/1130416/210285080-a86ce53e-8f2e-49c2-a148-93777212e476.png" width="50%" align="center" style="padding:1px;border:1px solid black;"/>
+<img src="https://github.com/go-outside-labs/bdex-amm-arb-toolkit-py/assets/138340846/4f91482e-b721-4d19-9086-a726df19ab3c" width="50%" align="center" style="padding:1px;border:1px solid black;"/>
  </p>
-
 
 
 
@@ -23,7 +22,7 @@
 <br>
 
 <p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/1130416/224524921-4d5fb3c9-f976-4b61-afcd-6d07d2287711.png">
+<img width="400" src="https://github.com/go-outside-labs/bdex-amm-arb-toolkit-py/assets/138340846/6de77a51-8b99-4f33-a6d2-5cb6b5903c88">
  </p>
 
 
